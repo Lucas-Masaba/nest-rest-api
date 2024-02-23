@@ -78,6 +78,7 @@ export class UsersService {
       }
       return user;
     });
+    return this.findOne(id);
   }
 
   delete(id: number) {
